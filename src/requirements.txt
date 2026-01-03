@@ -1,0 +1,11 @@
+# 🧠 Core dependencies
+torch==2.3.0
+transformers>=4.35.0 @ git+https://github.com/huggingface/transformers>=4.35.0git@096f25ae1f501a084d8ff2dcaf25fbc2bd60eba4
+
+# Optional but recommended (depending on where you run it)
+accelerate
+gradio>=4.0.0
+
+# If you plan to use CPU only, comment out torch above and use:
+#torch==2.3.0+cpu
+# --extra-index-url https://download.pytorch.org/whl/cpu
