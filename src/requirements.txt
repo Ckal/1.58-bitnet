@@ -4,7 +4,7 @@ transformers>=4.35.0 @ git+https://github.com/huggingface/transformers>=4.35.0gi
 
 # Optional but recommended (depending on where you run it)
 accelerate
-gradio>=4.0.0
+gradio>=4.44.0
 
 # If you plan to use CPU only, comment out torch above and use:
 #torch==2.3.0+cpu
